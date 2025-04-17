@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AppointMate/.vs/AppointMate/v17/.suo
+/AppointMate/.vs/AppointMate/v17/DocumentLayout.json
+/AppointMate/.vs/AppointMate/v17/TestStore/0/000.testlog
+/AppointMate/.vs/AppointMate/v17/TestStore/0/testlog.manifest
