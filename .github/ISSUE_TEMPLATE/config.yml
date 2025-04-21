@@ -1,6 +1,8 @@
 blank_issues_enabled: false
-contact_links: []
-issue_template:
-  - name: ✨ Feature Request
-    description: Create a new feature request
+
+issue_templates:
+  - name: 🚀 Feature Request
+    description: Create a new feature
+    title: "[Feature] "
+    labels: ["type: feature"]
     file: feature_request.md
