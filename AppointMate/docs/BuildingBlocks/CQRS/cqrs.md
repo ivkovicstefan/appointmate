@@ -5,8 +5,8 @@ Represents a command in the CQRS pattern that encapsulates an action or intent t
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/src/BuildingBlocks/AppointMate.BuildingBlocks/docs/CQRS/images/ICommandAbstraction-Dark.png#gh-dark-mode-only">
-    <img src="/AppointMate/src/BuildingBlocks/AppointMate.BuildingBlocks/docs/CQRS/images/ICommandAbstraction-Light.png#gh-light-mode-only">
+    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/docs/BuildingBlocks/CQRS/images/ICommandAbstraction-Dark.png#gh-dark-mode-only">
+    <img src="/AppointMate/docs/BuildingBlocks/CQRS/images/ICommandAbstraction-Light.png#gh-light-mode-only">
   </picture>
 </p>
 <p align="center">Picture 1 - ICommand Abstraction diagram</p>
@@ -16,8 +16,8 @@ Represents a logical separation of command handler responsibilities.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/src/BuildingBlocks/AppointMate.BuildingBlocks/docs/CQRS/images/ICommandHandlerAbstraction-Dark.png#gh-dark-mode-only">
-    <img src="/AppointMate/src/BuildingBlocks/AppointMate.BuildingBlocks/docs/CQRS/images/ICommandHandlerAbstraction-Light.png#gh-light-mode-only">
+    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/docs/BuildingBlocks/CQRS/images/ICommandHandlerAbstraction-Dark.png#gh-dark-mode-only">
+    <img src="/AppointMate/docs/BuildingBlocks/CQRS/images/ICommandHandlerAbstraction-Light.png#gh-light-mode-only">
   </picture>
 </p>
 <p align="center">Picture 2 - ICommandHandler Abstraction diagram</p>
@@ -27,8 +27,8 @@ Represents a query in the CQRS pattern that encapsulates an intent of data retri
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/src/BuildingBlocks/AppointMate.BuildingBlocks/docs/CQRS/images/IQueryAbstraction-Dark.png#gh-dark-mode-only">
-    <img src="/AppointMate/src/BuildingBlocks/AppointMate.BuildingBlocks/docs/CQRS/images/IQueryAbstraction-Light.png#gh-light-mode-only">
+    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/docs/BuildingBlocks/CQRS/images/IQueryAbstraction-Dark.png#gh-dark-mode-only">
+    <img src="/AppointMate/docs/BuildingBlocks/CQRS/images/IQueryAbstraction-Light.png#gh-light-mode-only">
   </picture>
 </p>
 <p align="center">Picture 3 - IQuery Abstraction diagram</p>
@@ -38,8 +38,8 @@ Defines a handler for executing queries in the CQRS pattern, where queries repre
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/src/BuildingBlocks/AppointMate.BuildingBlocks/docs/CQRS/images/IQueryHandlerAbstraction-Dark.png#gh-dark-mode-only">
-    <img src="/AppointMate/src/BuildingBlocks/AppointMate.BuildingBlocks/docs/CQRS/images/IQueryHandlerAbstraction-Light.png#gh-light-mode-only">
+    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/docs/BuildingBlocks/CQRS/images/IQueryHandlerAbstraction-Dark.png#gh-dark-mode-only">
+    <img src="/AppointMate/docs/BuildingBlocks/CQRS/images/IQueryHandlerAbstraction-Light.png#gh-light-mode-only">
   </picture>
 </p>
 <p align="center">Picture 4 - IQueryHandler Abstraction diagram</p>
