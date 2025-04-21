@@ -13,12 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{3B472D3B-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{B77C4BCF-C0D6-40C8-A570-AE3757026873}"
 	ProjectSection(SolutionItems) = preProject
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\building-blocks.md = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\building-blocks.md
+		docs\BuildingBlocks\building-blocks.md = docs\BuildingBlocks\building-blocks.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{6DEB8F16-BE55-4C83-9A67-2DCDF51DA190}"
 	ProjectSection(SolutionItems) = preProject
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\cqrs.md = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\cqrs.md
+		docs\BuildingBlocks\CQRS\cqrs.md = docs\BuildingBlocks\CQRS\cqrs.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{1500CD78-CDD1-4E27-B871-7A9F1EFC1B91}"
