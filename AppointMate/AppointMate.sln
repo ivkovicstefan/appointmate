@@ -23,14 +23,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{6DEB8F16-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{1500CD78-CDD1-4E27-B871-7A9F1EFC1B91}"
 	ProjectSection(SolutionItems) = preProject
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\ICommandAbstraction-Dark.png = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\ICommandAbstraction-Dark.png
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\ICommandAbstraction-Light.png = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\ICommandAbstraction-Light.png
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\ICommandHandlerAbstraction-Dark.png = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\ICommandHandlerAbstraction-Dark.png
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\ICommandHandlerAbstraction-Light.png = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\ICommandHandlerAbstraction-Light.png
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\IQueryAbstraction-Dark.png = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\IQueryAbstraction-Dark.png
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\IQueryAbstraction-Light.png = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\IQueryAbstraction-Light.png
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\IQueryHandlerAbstraction-Dark.png = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\IQueryHandlerAbstraction-Dark.png
-		src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\IQueryHandlerAbstraction-Light.png = src\BuildingBlocks\AppointMate.BuildingBlocks\docs\CQRS\images\IQueryHandlerAbstraction-Light.png
+		docs\BuildingBlocks\CQRS\images\ICommandAbstraction-Dark.png = docs\BuildingBlocks\CQRS\images\ICommandAbstraction-Dark.png
+		docs\BuildingBlocks\CQRS\images\ICommandAbstraction-Light.png = docs\BuildingBlocks\CQRS\images\ICommandAbstraction-Light.png
+		docs\BuildingBlocks\CQRS\images\ICommandHandlerAbstraction-Dark.png = docs\BuildingBlocks\CQRS\images\ICommandHandlerAbstraction-Dark.png
+		docs\BuildingBlocks\CQRS\images\ICommandHandlerAbstraction-Light.png = docs\BuildingBlocks\CQRS\images\ICommandHandlerAbstraction-Light.png
+		docs\BuildingBlocks\CQRS\images\IQueryAbstraction-Dark.png = docs\BuildingBlocks\CQRS\images\IQueryAbstraction-Dark.png
+		docs\BuildingBlocks\CQRS\images\IQueryAbstraction-Light.png = docs\BuildingBlocks\CQRS\images\IQueryAbstraction-Light.png
+		docs\BuildingBlocks\CQRS\images\IQueryHandlerAbstraction-Dark.png = docs\BuildingBlocks\CQRS\images\IQueryHandlerAbstraction-Dark.png
+		docs\BuildingBlocks\CQRS\images\IQueryHandlerAbstraction-Light.png = docs\BuildingBlocks\CQRS\images\IQueryHandlerAbstraction-Light.png
 	EndProjectSection
 EndProject
 Global
