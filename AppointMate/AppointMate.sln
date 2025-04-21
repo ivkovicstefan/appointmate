@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD04C9CF-161E-4DF0-8E32-44D7AD75A638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{BEFECDC0-1D73-4262-A179-E7BC9BB1D5B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointMate.BuildingBlocks", "src\BuildingBlocks\AppointMate.BuildingBlocks\AppointMate.BuildingBlocks.csproj", "{8D61744B-325C-4F83-AA9E-47433534A9F7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D61744B-325C-4F83-AA9E-47433534A9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D61744B-325C-4F83-AA9E-47433534A9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D61744B-325C-4F83-AA9E-47433534A9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D61744B-325C-4F83-AA9E-47433534A9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEFECDC0-1D73-4262-A179-E7BC9BB1D5B0} = {BD04C9CF-161E-4DF0-8E32-44D7AD75A638}
+		{8D61744B-325C-4F83-AA9E-47433534A9F7} = {BEFECDC0-1D73-4262-A179-E7BC9BB1D5B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5F0E988-CDC5-4CEB-9C76-F4A327D03488}
