@@ -1,5 +1,9 @@
-name: Feature Request
-about: Use this template for tracking new features.
-title: "[FEATURE NAME]"
-labels: feature
-assignees: octocat
+---
+name: 🚀 Feature Request
+about: Create a new feature
+title: "[Feature] "
+labels: [type: feature, status: todo]
+---
+
+### ✨ Description
+...
