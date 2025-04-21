@@ -1,11 +1,5 @@
-### ✨ Feature Request: [name]
-
-#### Description
-Create necessary CQRS abstractions based on the MediatR NuGet package.
-
-#### Goals
-- [goal 1]
-- [goal 2]
-#### Tasks
-- [x] [task 1]
-- [x] [task 2]
+name: Feature Request
+about: Use this template for tracking new features.
+title: "[FEATURE NAME]"
+labels: feature
+assignees: octocat
