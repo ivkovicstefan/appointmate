@@ -37,13 +37,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{FFC097A6-6B41-4769-9777-797866C5424D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointMate.User.API", "src\Services\User\AppointMate.User.API\AppointMate.User.API.csproj", "{8A2BCB4F-8FCB-4334-8EAE-02A313320EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointMate.User.API", "src\Services\User\AppointMate.User.API\AppointMate.User.API.csproj", "{8A2BCB4F-8FCB-4334-8EAE-02A313320EE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointMate.User.Infrastructure", "src\Services\User\AppointMate.User.Infrastructure\AppointMate.User.Infrastructure.csproj", "{52DBD5B1-3849-4A85-BEC4-6E142CABD5F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointMate.User.Infrastructure", "src\Services\User\AppointMate.User.Infrastructure\AppointMate.User.Infrastructure.csproj", "{52DBD5B1-3849-4A85-BEC4-6E142CABD5F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointMate.User.Application", "src\Services\User\AppointMate.User.Application\AppointMate.User.Application.csproj", "{5C432138-CF84-4807-BA2A-F67857A9FA07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointMate.User.Application", "src\Services\User\AppointMate.User.Application\AppointMate.User.Application.csproj", "{5C432138-CF84-4807-BA2A-F67857A9FA07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointMate.User.Domain", "src\Services\User\AppointMate.User.Domain\AppointMate.User.Domain.csproj", "{F690509A-C90E-43B0-9FF6-C9E4391DD9FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointMate.User.Domain", "src\Services\User\AppointMate.User.Domain\AppointMate.User.Domain.csproj", "{F690509A-C90E-43B0-9FF6-C9E4391DD9FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{544CE213-4F5B-466F-8C84-6F49BBC32E59}"
 EndProject
@@ -51,9 +51,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{A4404406-22CB-4FB4-A9EA-1ED0593FB1C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointMate.User.Domain.UnitTests", "tests\Services\User\AppointMate.User.Domain.UnitTests\AppointMate.User.Domain.UnitTests.csproj", "{5DCCD605-7604-4EFA-A050-6315FD85C6DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointMate.User.Domain.UnitTests", "tests\Services\User\AppointMate.User.Domain.UnitTests\AppointMate.User.Domain.UnitTests.csproj", "{5DCCD605-7604-4EFA-A050-6315FD85C6DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointMate.User.Application.UnitTests", "tests\Services\User\AppointMate.User.Application.UnitTests\AppointMate.User.Application.UnitTests.csproj", "{C881EE4D-85B5-4BD6-835E-E579422A9306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointMate.User.Application.UnitTests", "tests\Services\User\AppointMate.User.Application.UnitTests\AppointMate.User.Application.UnitTests.csproj", "{C881EE4D-85B5-4BD6-835E-E579422A9306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{1F46E36F-D501-4BC3-8994-7BC4FB73805A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C3DB370E-1B93-4100-82D1-8EA5315F9011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{759B4CFE-7138-4406-854A-3902F5F66ED7}"
+	ProjectSection(SolutionItems) = preProject
+		abstractions.md = abstractions.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0883EC73-EDCC-4EE6-87E9-9717616A5FDB}"
+	ProjectSection(SolutionItems) = preProject
+		docs\User\Domain\Abstractions\images\Aggregate-Dark.png = docs\User\Domain\Abstractions\images\Aggregate-Dark.png
+		docs\User\Domain\Abstractions\images\Aggregate-Light.png = docs\User\Domain\Abstractions\images\Aggregate-Light.png
+		docs\User\Domain\Abstractions\images\Entity-Dark.png = docs\User\Domain\Abstractions\images\Entity-Dark.png
+		docs\User\Domain\Abstractions\images\Entity-Light.png = docs\User\Domain\Abstractions\images\Entity-Light.png
+		docs\User\Domain\Abstractions\images\IAggregate-Dark.png = docs\User\Domain\Abstractions\images\IAggregate-Dark.png
+		docs\User\Domain\Abstractions\images\IAggregate-Light.png = docs\User\Domain\Abstractions\images\IAggregate-Light.png
+		docs\User\Domain\Abstractions\images\IDomainEvent-Dark.png = docs\User\Domain\Abstractions\images\IDomainEvent-Dark.png
+		docs\User\Domain\Abstractions\images\IDomainEvent-Light.png = docs\User\Domain\Abstractions\images\IDomainEvent-Light.png
+		docs\User\Domain\Abstractions\images\IEntity-Dark.png = docs\User\Domain\Abstractions\images\IEntity-Dark.png
+		docs\User\Domain\Abstractions\images\IEntity-Light.png = docs\User\Domain\Abstractions\images\IEntity-Light.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +132,10 @@ Global
 		{A4404406-22CB-4FB4-A9EA-1ED0593FB1C7} = {7A2D21AC-5A3B-4D25-A341-79488457AE86}
 		{5DCCD605-7604-4EFA-A050-6315FD85C6DD} = {A4404406-22CB-4FB4-A9EA-1ED0593FB1C7}
 		{C881EE4D-85B5-4BD6-835E-E579422A9306} = {A4404406-22CB-4FB4-A9EA-1ED0593FB1C7}
+		{1F46E36F-D501-4BC3-8994-7BC4FB73805A} = {3B472D3B-CE67-43A2-81BA-863E52895BE5}
+		{C3DB370E-1B93-4100-82D1-8EA5315F9011} = {1F46E36F-D501-4BC3-8994-7BC4FB73805A}
+		{759B4CFE-7138-4406-854A-3902F5F66ED7} = {C3DB370E-1B93-4100-82D1-8EA5315F9011}
+		{0883EC73-EDCC-4EE6-87E9-9717616A5FDB} = {759B4CFE-7138-4406-854A-3902F5F66ED7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5F0E988-CDC5-4CEB-9C76-F4A327D03488}
