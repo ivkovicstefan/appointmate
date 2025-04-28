@@ -61,7 +61,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C3DB37
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{759B4CFE-7138-4406-854A-3902F5F66ED7}"
 	ProjectSection(SolutionItems) = preProject
-		abstractions.md = abstractions.md
+		docs\User\Domain\Abstractions\abstractions.md = docs\User\Domain\Abstractions\abstractions.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0883EC73-EDCC-4EE6-87E9-9717616A5FDB}"
