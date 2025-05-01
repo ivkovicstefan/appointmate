@@ -1,6 +1,8 @@
-﻿namespace AppointMate.User.Domain.User.ValueObjects
+﻿using AppointMate.User.Domain.Abstractions;
+
+namespace AppointMate.User.Domain.User.ValueObjects
 {
-    public sealed class VerificationTokenId
+    public sealed class VerificationTokenId : ValueObject
     {
         public Guid Value { get; }
 
@@ -16,6 +18,11 @@
             }
 
             return new VerificationTokenId(value);
+        }
+
+        protected override IEnumerable<object?> GetEqualityComponents()
+        {
+            yield return Value;
         }
     }
 }
