@@ -57,3 +57,15 @@ Manages a list of domain events and provides methods to record and clear them.
   </picture>
 </p>
 <p align="center">Picture 5 - Aggregate Abstraction diagram</p>
+
+## ValueObject Abstraction
+Abstract base class for value objects.
+Gives an opportunity to value objects to define properties for equality comparer.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/AppointMate/docs/User/Domain/Abstractions/images/ValueObject-Dark.png#gh-dark-mode-only">
+    <img src="/AppointMate/docs/User/Domain/Abstractions/images/ValueObject-Light.png#gh-light-mode-only">
+  </picture>
+</p>
+<p align="center">Picture 6 - ValueObject Abstraction diagram</p>
