@@ -76,6 +76,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0883EC
 		docs\User\Domain\Abstractions\images\IDomainEvent-Light.png = docs\User\Domain\Abstractions\images\IDomainEvent-Light.png
 		docs\User\Domain\Abstractions\images\IEntity-Dark.png = docs\User\Domain\Abstractions\images\IEntity-Dark.png
 		docs\User\Domain\Abstractions\images\IEntity-Light.png = docs\User\Domain\Abstractions\images\IEntity-Light.png
+		docs\User\Domain\Abstractions\images\ValueObject-Dark.png = docs\User\Domain\Abstractions\images\ValueObject-Dark.png
+		docs\User\Domain\Abstractions\images\ValueObject-Light.png = docs\User\Domain\Abstractions\images\ValueObject-Light.png
 	EndProjectSection
 EndProject
 Global
